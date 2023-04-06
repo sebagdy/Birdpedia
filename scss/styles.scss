@@ -275,8 +275,10 @@ body {
       nav {
         margin-top: 10px;
       }
-      .carousel-item img {
-        margin-left: 0;
+      .carousel-item {
+        width:auto;
+        height:auto; 
+        margin: auto;
       }
       .carousel-caption {
         position: static;
