@@ -262,35 +262,17 @@ body {
         left: 0;
         }
     }
-    @media screen and (max-width: 600px) {
-      header {
-        height: auto;
-        text-align: center;
-        padding: 10px;
-      }
-      h1 {
-        font-size: 24px;
-        margin: 0;
-      }
-      nav {
-        margin-top: 10px;
-      }
-      .carousel-item {
-        width:auto;
-        height:auto; 
-        margin: auto;
-      }
+    @media (max-width: 576px) {
       .carousel-caption {
-        position: static;
+        display: none;
+      }
+      .carousel-indicators {
+        display: none;
       }
       .carousel-control-prev,
       .carousel-control-next {
         display: none;
       }
-      footer {
-        text-align: center;
-        margin-top: 20px;
-      }
     }
-    
+      
     
